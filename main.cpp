@@ -44,10 +44,10 @@ int main()
 
     get_string("Enter a string of text: ");
     cin >> user_str;
-    get_string("Enter a single letter: ");
+    get_string("Enter a character: ");
     cin >> user_chr;
 
-    cout << "The letter you entered was in your string " 
+    cout << "The character " << user_chr  << " was in your string " 
     << char_count(user_str, user_chr) << " time(s)." << endl; 
     
     return 0;
